@@ -1,0 +1,140 @@
+.form {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.head {
+  text-align: center;
+  margin-top: 0;
+}
+
+.box {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.box input {
+  width: 100%;
+}
+
+.btn {
+  width: 70px;
+  height: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+
+.form-error {
+  position: absolute;
+  padding: 5px 10px;
+  width: 150px;
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  border: solid 1px burlywood;
+}
+
+.wrapper {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.list-part {
+  width: 30%;
+  height: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 10px 0 0 10px;
+  overflow: auto;
+}
+
+.welcome {
+  text-align: center;
+  color: goldenrod;
+}
+
+.chat {
+  width: 70%;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 0 10px 10px 0;
+}
+
+.messages {
+  height: 660px;
+  overflow: auto;
+}
+
+.input {
+  width: 90%;
+  height: 25px;
+  padding: 5px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.name {
+  width: 80%;
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.you-name {
+  color: palevioletred;
+}
+
+.you-avatar {
+  border: 1px solid palevioletred;
+}
+
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.you-message {
+  border: 1px solid palevioletred;
+  color: palevioletred;
+  float: right;
+}
+
+.small-name {
+  width: 15%;
+}
+
+.date {
+  width: 85%;
+}
+
+.text {
+  margin-top: 10px;
+  width: 100%;
+}
+
